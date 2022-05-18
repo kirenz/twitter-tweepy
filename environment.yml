@@ -1,0 +1,17 @@
+name: nltk
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - nltk
+    - pandas
+    - seaborn
+    - scikit-learn
+    - jupyter
+    - requests
+    - tweepy
+    - matplotlib
+    - plotly
+    - wordcloud
